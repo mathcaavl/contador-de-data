@@ -1,0 +1,94 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+body {
+    background: #00BFFF
+}
+
+.topo-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5em;
+}
+
+.topo-menu h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.btnReiniciar {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.section-main {
+    text-align: center;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.inputValue h3 {
+    margin-bottom: 15px;
+}
+
+.contador {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 3em;
+}
+
+.inputDate {
+    margin-top: 5px;
+    border: none;
+    background: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: black;
+    font-size: 1em;
+}
+
+.btnEnviar {
+    margin-top: 10px;
+    background: white;
+    border: none;
+    color: black;
+    padding: 10px 23px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.section-rest {
+    margin-top: 5em;
+    color: white;
+}
+
+.section-rest h3 {
+    text-align: center;
+}
+
+.divHorario {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+    font-size: 3em;
+    color: white;
+}
+
+.identificacao {
+    display: flex; 
+    justify-content: space-around;
+    font-size: 1.5em;
+}
